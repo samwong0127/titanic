@@ -30,7 +30,9 @@ Differences with prediction 5:
 2. MinMaxScaler scaled 
 3. Logsitic Regression used
 
-
+8_gpc: 0.77990
+Differences with prediction 7:
+1. Added CabinS as feature (A, B, C, ..., N)
 
 
 Ideas on categorical feature with a large set of categories (feature1: {A, B, C, ...})
