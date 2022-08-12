@@ -3,8 +3,10 @@ Kaggle competition: Titanic - Machine Learning from Disaster
 
 **Aim**: To use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
 
-This is the repo of the contruction of ML models for the competition. *data* folder contains the test and train data given. *predictions* folder contains the predictions on test data by different models and entries. *titanic- one-hot encoding.ipynb* is the Jupyter Notebook for a small EDA, feature extraction, feature engineering, and training of ML models.
+This is the repo of the contruction of ML models for the competition. *data* folder contains the test and train data given. *predictions* folder contains the predictions on test data by different models and entries. *titanic- one-hot encoding.ipynb* is the Jupyter Notebook for a small EDA, feature extraction, feature engineering, and training of ML models. It also contains my thinking process and draft of training
 
+
+### This repo is finialised on 12th Aug, 2022. My final notebook can be seen on https://www.kaggle.com/code/samwong127/titanic/notebook or *titanic.ipynb*.
 
 ### Prediction Diary
 
