@@ -6,12 +6,16 @@ Kaggle competition: Titanic - Machine Learning from Disaster
 This is the repo of the contruction of ML models for the competition. *data* folder contains the test and train data given. *predictions* folder contains the predictions on test data by different models and entries. *titanic- one-hot encoding.ipynb* is the Jupyter Notebook for a small EDA, feature extraction, feature engineering, and training of ML models. It also contains my thinking process and draft of training
 
 
-### This repo is finialised on 12th Aug, 2022. My final notebook can be seen on https://www.kaggle.com/code/samwong127/titanic/notebook or *titanic.ipynb*.
+### This repo is finialised on 12th Aug, 2022. The final notebook can be seen on [https://www.kaggle.com/code/samwong127/titanic-survival-rate-with-sklearn].
 
 
 ### Conclusion and knowledge
-In this competition, the highest 
+In this competition, the predictions with highest score (**0.78708**) comes from ***Logistic Regression*** (LR). ***Guassian Process Classifier*** (GPC) has the highest accuracy in the training set but LR gets the highest score in the test set. Therefore, overfitting may be occured in the former model. Besides, both models have higher f1-score in predicting **0 (Not Survived)** than **1 (Survived)**. One reason is that the total number of survivors is less than that of deaths in the training set. When predicting the deaths, LR has higher precision but lower recall than GPC. When predicting the survived, LR has lower precision but higher recall than GPC.
+Overall, Guassian Process Classifier is better in predicting "Not Survived" (0.9 > 0.89) and Logistic Regression is better in predicting "Surivived" (0.82 > 0.8).
 
+Things I learnt:
+1. Ways of Feature engineering: Transforming the number of Siblings and Parent/Child into whether he has a sibling and Parent/Child, from numerical features to categorical features (Ticket class)
+2. Feature extraction: Extracting the title from name, Cabin class from Cabin ID, 
 
 ### Prediction Diary
 
