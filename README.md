@@ -1,4 +1,4 @@
-# titanic
+# Titanic - Machine Learning from Disaster - kaggle
 Kaggle competition: Titanic - Machine Learning from Disaster
 
 **Aim**: To use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
@@ -7,6 +7,11 @@ This is the repo of the contruction of ML models for the competition. *data* fol
 
 
 ### This repo is finialised on 12th Aug, 2022. My final notebook can be seen on https://www.kaggle.com/code/samwong127/titanic/notebook or *titanic.ipynb*.
+
+
+### Conclusion and knowledge
+In this competition, the highest 
+
 
 ### Prediction Diary
 
